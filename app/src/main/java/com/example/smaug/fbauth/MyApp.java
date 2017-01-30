@@ -18,7 +18,7 @@ public class MyApp extends Application{
     public void onCreate() {
         super.onCreate();
         // Initialize the SDK before executing any other operations,
-        FacebookSdk.sdkInitialize(getApplicationContext());
+  //      FacebookSdk.sdkInitialize(getApplicationContext());
         AppEventsLogger.activateApp(this);
     }
 
